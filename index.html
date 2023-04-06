@@ -115,7 +115,7 @@
             </ul>
 
             <div class="action-container">
-              <button class="normal-button">
+              <button class="normal-button" data-bs-toggle="modal" data-bs-target="#reg-modal">
                 <p class="project-text">See Project</p>
               </button>
             </div>
@@ -159,7 +159,7 @@
             </ul>
 
             <div class="action-container">
-              <button class="normal-button">
+              <button class="normal-button" data-bs-toggle="modal" data-bs-target="#reg-modal">
                 <p class="project-text">See Project</p>
               </button>
             </div>
@@ -203,7 +203,7 @@
             </ul>
 
             <div class="action-container">
-              <button class="normal-button">
+              <button class="normal-button" data-bs-toggle="modal" data-bs-target="#reg-modal">
                 <p class="project-text">See Project</p>
               </button>
             </div>
@@ -247,7 +247,7 @@
             </ul>
 
             <div class="action-container">
-              <button class="normal-button">
+              <button class="normal-button" data-bs-toggle="modal" data-bs-target="#reg-modal">
                 <p class="project-text">See Project</p>
               </button>
             </div>
@@ -480,6 +480,27 @@
         </div>
       </section>
     </div>
+
+    <!-- Modal itself -->
+
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum est quibusdam at! Magni maiores, tenetur fuga repellendus, at possimus voluptate ullam qui, in cumque voluptates nam omnis placeat quia.</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
